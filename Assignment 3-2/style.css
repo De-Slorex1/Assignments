@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+.container{
+    margin: 60px;
+}
+.contain{
+    padding: 20px 0px;
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(228, 226, 226, 0.5);
+}
+.login-title{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(219, 47, 81);
+    margin-bottom: 30px;
+}
+
+form{
+    text-align: left;
+}
+
+.input{
+    margin: 10px 20px;
+    width: 320px;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    outline: none;
+    border-radius: 2px;
+}
+
+.input::placeholder{
+    font-weight: 600;
+}
+.btn{
+    margin: 20px 70px;
+    padding: 6px 40px;
+    background-color: rgb(219, 47, 81);
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    width: 250px;
+}
+.btn:hover{
+    background-color: rgb(243, 46, 86);
+}
+.password{
+    color: grey;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.btn-block{
+    display: flex;
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgb(219, 47, 81);
+}
+.btns{
+    width: 193px;
+    height: 41px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.btns:hover{
+    background-color: rgb(207, 6, 46);
+}
+.contains{
+    padding: 20px 0px;
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 680px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(228, 226, 226, 0.5);
+}
+.formDetails{
+    margin: 20px;
+}
+.info{
+    margin: 8px 0px;
+    width: 400px;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.infos{
+    margin: 15px 0px;
+    width: 350px;
+    padding: 10px 0px;
+}
+.button{
+    margin: 20px 80px;
+    padding: 10px 40px;
+    background-color: rgb(219, 47, 81);
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    width: 280px;
+}
+.button:hover{
+    background-color: rgb(243, 46, 86);
+}
+.colorPicker{
+    margin: 10px 0px;
+    width: 200px;
+    height: 10px;
+}
